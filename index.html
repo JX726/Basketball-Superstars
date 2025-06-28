@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Basketball Superstars - Play Online Basketball Game</title>
+    <meta name="description" content="Play Free Basketball Superstars online! Experience the ultimate basketball gaming adventure with realistic gameplay, stunning graphics, and competitive matches. No download required.">
+    <meta name="keywords" content="free basketball superstars, basketball game, online basketball, free sports games, basketball simulator, NBA game">
+    <meta name="author" content="Free Basketball Superstars">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Free Basketball Superstars - Play Online Basketball Game">
+    <meta property="og:description" content="Play Free Basketball Superstars online! Experience the ultimate basketball gaming adventure with realistic gameplay and competitive matches.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://freebasketballsuperstars.xyz">
+    <meta property="og:site_name" content="Free Basketball Superstars">
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Free Basketball Superstars - Play Online Basketball Game">
+    <meta name="twitter:description" content="Play Free Basketball Superstars online! Experience the ultimate basketball gaming adventure with realistic gameplay and competitive matches.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://freebasketballsuperstars.xyz">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏀</text></svg>">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'apple-blue': '#007AFF',
+                        'apple-green': '#34C759',
+                        'apple-orange': '#FF9500',
+                        'apple-red': '#FF3B30',
+                        'apple-purple': '#AF52DE',
+                        'apple-gray': '#8E8E93',
+                        'apple-gray-light': '#F2F2F7',
+                        'apple-gray-dark': '#1C1C1E'
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        .game-container {
+            background: linear-gradient(135deg, #007AFF 0%, #34C759 100%);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 122, 255, 0.2);
+        }
+        
+        .feature-card {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #007AFF, #34C759);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .game-iframe {
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        @media (max-width: 768px) {
+            .game-iframe {
+                height: 400px;
+            }
+        }
+        
+        .hero-section {
+            background: linear-gradient(135deg, #F2F2F7 0%, #E5E5EA 100%);
+        }
+        
+        .cta-button {
+            background: linear-gradient(135deg, #007AFF, #34C759);
+            transition: all 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(0, 122, 255, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-apple-gray-light text-apple-gray-dark">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-2">
+                    <span class="text-2xl">🏀</span>
+                    <span class="text-xl font-semibold gradient-text">Free Basketball Superstars</span>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#game" class="text-apple-gray hover:text-apple-blue transition-colors">Play Game</a>
+                    <a href="#features" class="text-apple-gray hover:text-apple-blue transition-colors">Features</a>
+                    <a href="#how-to-play" class="text-apple-gray hover:text-apple-blue transition-colors">How to Play</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section py-16 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-4xl md:text-6xl font-bold gradient-text mb-6">
+                Free Basketball Superstars
+            </h1>
+            <p class="text-xl md:text-2xl text-apple-gray mb-8 leading-relaxed">
+                Experience the ultimate basketball gaming adventure with realistic gameplay, stunning graphics, and competitive matches.
+            </p>
+            <button onclick="document.getElementById('game').scrollIntoView({behavior: 'smooth'})" 
+                    class="cta-button text-white px-8 py-4 rounded-full text-lg font-semibold">
+                🏀 Play Now - It's Free!
+            </button>
+        </div>
+    </section>
+
+    <!-- Game Section -->
+    <section id="game" class="py-16 px-4 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <div class="game-container p-8">
+                <h2 class="text-3xl font-bold text-white text-center mb-8">
+                    🎮 Play Free Basketball Superstars Online
+                </h2>
+                <div class="bg-white rounded-2xl p-4">
+                    <iframe 
+                        src="https://games.crazygames.com/en_US/basketball-superstars/index.html?v=1.334"
+                        class="game-iframe w-full h-96 md:h-[600px] border-0"
+                        allowfullscreen
+                        loading="lazy"
+                        title="Free Basketball Superstars Game">
+                    </iframe>
+                </div>
+                <p class="text-white text-center mt-4 text-sm opacity-90">
+                    🎯 Use arrow keys to move, spacebar to shoot, and Z/X for special moves
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 px-4 bg-apple-gray-light">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center gradient-text mb-12">
+                🌟 Game Features
+            </h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="feature-card rounded-2xl p-6">
+                    <div class="text-apple-blue text-4xl mb-4">🏆</div>
+                    <h3 class="text-xl font-semibold mb-3">Championship Mode</h3>
+                    <p class="text-apple-gray leading-relaxed">
+                        Compete in thrilling tournaments and climb your way to become the ultimate basketball superstar.
+                    </p>
+                </div>
+                <div class="feature-card rounded-2xl p-6">
+                    <div class="text-apple-green text-4xl mb-4">🎯</div>
+                    <h3 class="text-xl font-semibold mb-3">Precision Controls</h3>
+                    <p class="text-apple-gray leading-relaxed">
+                        Master intuitive controls that respond perfectly to your every move, dribble, and shot.
+                    </p>
+                </div>
+                <div class="feature-card rounded-2xl p-6">
+                    <div class="text-apple-orange text-4xl mb-4">✨</div>
+                    <h3 class="text-xl font-semibold mb-3">Stunning Graphics</h3>
+                    <p class="text-apple-gray leading-relaxed">
+                        Enjoy high-quality visuals and smooth animations that bring the basketball court to life.
+                    </p>
+                </div>
+                <div class="feature-card rounded-2xl p-6">
+                    <div class="text-apple-purple text-4xl mb-4">⚡</div>
+                    <h3 class="text-xl font-semibold mb-3">Fast-Paced Action</h3>
+                    <p class="text-apple-gray leading-relaxed">
+                        Experience adrenaline-pumping gameplay with quick matches and instant action.
+                    </p>
+                </div>
+                <div class="feature-card rounded-2xl p-6">
+                    <div class="text-apple-red text-4xl mb-4">🎮</div>
+                    <h3 class="text-xl font-semibold mb-3">No Download Required</h3>
+                    <p class="text-apple-gray leading-relaxed">
+                        Play instantly in your browser without any downloads, installations, or registrations.
+                    </p>
+                </div>
+                <div class="feature-card rounded-2xl p-6">
+                    <div class="text-apple-blue text-4xl mb-4">📱</div>
+                    <h3 class="text-xl font-semibold mb-3">Mobile Friendly</h3>
+                    <p class="text-apple-gray leading-relaxed">
+                        Optimized for both desktop and mobile devices for gaming anywhere, anytime.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Play Section -->
+    <section id="how-to-play" class="py-16 px-4 bg-white">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center gradient-text mb-12">
+                🎯 How to Play Basketball Superstars
+            </h2>
+            <div class="space-y-8">
+                <div class="flex items-start space-x-4">
+                    <div class="bg-apple-blue text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">1</div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Master the Controls</h3>
+                        <p class="text-apple-gray leading-relaxed">
+                            Use arrow keys to move your player around the court. The responsive controls allow for precise movement and positioning.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <div class="bg-apple-green text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">2</div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Perfect Your Shooting</h3>
+                        <p class="text-apple-gray leading-relaxed">
+                            Press spacebar to shoot the ball. Timing and positioning are crucial for making successful shots and scoring points.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <div class="bg-apple-orange text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">3</div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Execute Special Moves</h3>
+                        <p class="text-apple-gray leading-relaxed">
+                            Use Z and X keys for special moves, advanced dribbling techniques, and defensive maneuvers to outplay your opponents.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <div class="bg-apple-purple text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">4</div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Win Championships</h3>
+                        <p class="text-apple-gray leading-relaxed">
+                            Compete in various game modes, defeat challenging opponents, and work your way up to become the ultimate basketball superstar.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-16 px-4 bg-apple-gray-light">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold gradient-text mb-8">
+                🏀 About Free Basketball Superstars
+            </h2>
+            <p class="text-lg text-apple-gray leading-relaxed mb-6">
+                Free Basketball Superstars is the premier online basketball gaming experience that combines realistic gameplay mechanics with engaging visual design. Whether you're a basketball enthusiast or a casual gamer, this free-to-play browser game delivers hours of entertainment without any downloads or installations required.
+            </p>
+            <p class="text-lg text-apple-gray leading-relaxed mb-6">
+                The game features multiple challenging levels, competitive AI opponents, and smooth gameplay that works seamlessly across all devices. With its intuitive controls and progressive difficulty system, players of all skill levels can enjoy the thrill of basketball right from their browser.
+            </p>
+            <p class="text-lg text-apple-gray leading-relaxed">
+                Join millions of players worldwide who have already discovered the excitement of Free Basketball Superstars. Start your journey to basketball greatness today – no registration required, completely free to play!
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-apple-gray-dark text-white py-12 px-4">
+        <div class="max-w-6xl mx-auto text-center">
+            <div class="flex items-center justify-center space-x-2 mb-6">
+                <span class="text-3xl">🏀</span>
+                <span class="text-2xl font-semibold">Free Basketball Superstars</span>
+            </div>
+            <p class="text-apple-gray mb-6">
+                The ultimate free online basketball gaming experience. Play anytime, anywhere!
+            </p>
+            <div class="border-t border-gray-700 pt-6">
+                <p class="text-sm text-apple-gray">
+                    © 2024 Free Basketball Superstars. All rights reserved. | 
+                    <a href="#" class="hover:text-white transition-colors">Privacy Policy</a> | 
+                    <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Game",
+        "name": "Free Basketball Superstars",
+        "description": "Play Free Basketball Superstars online! Experience the ultimate basketball gaming adventure with realistic gameplay, stunning graphics, and competitive matches. No download required.",
+        "url": "https://freebasketballsuperstars.xyz",
+        "genre": "Sports Game",
+        "playMode": "SinglePlayer",
+        "applicationCategory": "Game",
+        "operatingSystem": "Any",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Free Basketball Superstars"
+        }
+    }
+    </script>
+</body>
+</html>
